@@ -1,0 +1,6 @@
+{
+    "sources": [
+        "https://raw.githubusercontent.com/JellyUX/Keep_or_Remove/main/manifest.json",
+        "https://raw.githubusercontent.com/JellyUX/Homepage/main/manifest.json"
+    ]
+}

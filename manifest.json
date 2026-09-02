@@ -1,0 +1,568 @@
+[
+    {
+        "guid": "3adf1f1f-1541-4e47-b9e3-34d2d2968af6",
+        "name": "JellyUX Homepage",
+        "overview": "Replaces and enhances the Jellyfin home screen with configurable widgets.",
+        "description": "A modular home screen engine for Jellyfin. Configure widgets for native content, personalized recommendations, and external sources (TMDb).",
+        "owner": "Samuellct",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/Samuellct/JellyUX-Homepage/main/docs/icon.png",
+        "versions": [
+            {
+                "version": "2.9.0.0",
+                "changelog": "### Features\n\n* complete V3 feature set ([a368dcc](https://github.com/Samuellct/JellyUX-Homepage/commit/a368dccc1e2249111a8f7ab367afeade65629188))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.9.0/jellyux-homepage_2.9.0.0.zip",
+                "checksum": "91bb0e3044b1da78b8a4bc689a1c0410",
+                "timestamp": "2026-07-26T13:08:03Z"
+            },
+            {
+                "version": "2.8.0.0",
+                "changelog": "### Features\n\n* add Recently Added Episodes widget ([1bf3f94](https://github.com/Samuellct/JellyUX-Homepage/commit/1bf3f9479cd5ccb3705f4ed5217d18f5c6325fbd))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.8.0/jellyux-homepage_2.8.0.0.zip",
+                "checksum": "05f8759cc78093ab52e5d8fb7f8a819f",
+                "timestamp": "2026-07-26T12:51:22Z"
+            },
+            {
+                "version": "2.7.0.0",
+                "changelog": "### Features\n\n* add randomized selection to Because You Watched sections ([775144b](https://github.com/Samuellct/JellyUX-Homepage/commit/775144b9aeb90b2bc1a78134faac35e9ff4b96c4))\n* add seasonal home screen widget with presets ([02e89db](https://github.com/Samuellct/JellyUX-Homepage/commit/02e89db4916b17b384595bea69cba6308425ab5d))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.7.0/jellyux-homepage_2.7.0.0.zip",
+                "checksum": "52e8673864ecd100e386ffb10dfa7c55",
+                "timestamp": "2026-07-26T09:59:33Z"
+            },
+            {
+                "version": "2.6.1.0",
+                "changelog": "### Bug Fixes\n\n* remove unreliable JellyUX tab shortcuts feature ([7b4ca82](https://github.com/Samuellct/JellyUX-Homepage/commit/7b4ca820304416a72184d3d882b3b05cb29a639f))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.6.1/jellyux-homepage_2.6.1.0.zip",
+                "checksum": "e9af8acf0a34735770e5e273da60ab87",
+                "timestamp": "2026-07-25T22:16:06Z"
+            },
+            {
+                "version": "2.6.0.0",
+                "changelog": "### Features\n\n* add breadcrumb navigation ([104ff7f](https://github.com/Samuellct/JellyUX-Homepage/commit/104ff7f9c08e456952e9f75896a0f56863ef3e8e)), closes [#moviesTab](https://github.com/Samuellct/JellyUX-Homepage/issues/moviesTab)\n* add JellyUX tab shortcuts to the navigation drawer ([b21259b](https://github.com/Samuellct/JellyUX-Homepage/commit/b21259b4c91fdaa56e7a04fec354389b169429b6))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.6.0/jellyux-homepage_2.6.0.0.zip",
+                "checksum": "d518240e43672f243eb84a666bfeb5bb",
+                "timestamp": "2026-07-25T20:10:22Z"
+            },
+            {
+                "version": "2.5.3.0",
+                "changelog": "### Bug Fixes\n\n* correct library infinite scroll after in-app navigation to the page ([c7247f7](https://github.com/Samuellct/JellyUX-Homepage/commit/c7247f7c0a82376baea01dd25c948264f198cf43))\n* stamp the real release version onto the compiled assembly ([0858533](https://github.com/Samuellct/JellyUX-Homepage/commit/08585331b723e7cb36622dd1612674ae5aed4f01))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.5.3/jellyux-homepage_2.5.3.0.zip",
+                "checksum": "6e83ac97cc003e96608ecd1d5bb2fb5c",
+                "timestamp": "2026-07-23T20:48:18Z"
+            },
+            {
+                "version": "2.5.2.0",
+                "changelog": "### Bug Fixes\n\n* align injected scroller cards with native sections via no-padding ([c45680c](https://github.com/Samuellct/JellyUX-Homepage/commit/c45680c130ab38f38376c82749ed06ee8419bc08))\n* don't hide native pagination on library pages until cardBuilder is ready ([5cb56d7](https://github.com/Samuellct/JellyUX-Homepage/commit/5cb56d79971cad21b0345b1ecfc1139496472c36))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.5.2/jellyux-homepage_2.5.2.0.zip",
+                "checksum": "82f2252479d3b78c605e2e0ef7aaab80",
+                "timestamp": "2026-07-23T16:26:46Z"
+            },
+            {
+                "version": "2.5.1.0",
+                "changelog": "### Bug Fixes\n\n* match native section sizing for flattened seasons and Included In ([a6ea5a8](https://github.com/Samuellct/JellyUX-Homepage/commit/a6ea5a835a488af6fa9bc0d71a93c10060d29ac7))\n* trigger library infinite scroll well before the literal page bottom ([50d7f89](https://github.com/Samuellct/JellyUX-Homepage/commit/50d7f89389dac99e2828978ec85e374762c2354b))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.5.1/jellyux-homepage_2.5.1.0.zip",
+                "checksum": "a9deb0adfd6e5b594fcd5ab1d24f438a",
+                "timestamp": "2026-07-23T15:04:27Z"
+            },
+            {
+                "version": "2.5.0.0",
+                "changelog": "### Features\n\n* add infinite scroll to library pages and fix eager lazy-load fetch ([c4e5f35](https://github.com/Samuellct/JellyUX-Homepage/commit/c4e5f35533de504f0694457c72bc9b2e28bb1912))\n* flatten single-season shows and show episodes on the series page ([908fc7d](https://github.com/Samuellct/JellyUX-Homepage/commit/908fc7dc8340171eb471a1453c5dc7ad42fa0155)), closes [#listChildrenCollapsible](https://github.com/Samuellct/JellyUX-Homepage/issues/listChildrenCollapsible) [#childrenCollapsible](https://github.com/Samuellct/JellyUX-Homepage/issues/childrenCollapsible)\n* show parent collections on the details page and add collection sorting ([b62ee90](https://github.com/Samuellct/JellyUX-Homepage/commit/b62ee908703e3a1c49f9909eb584ed940be9b09b))\n\n### Bug Fixes\n\n* prevent duplicate sections and a resort race in Phase 7.1/7.2 scripts ([48123b7](https://github.com/Samuellct/JellyUX-Homepage/commit/48123b7e0a79a53535cee6b198f8ca76e75a8071))\n* resolve BoxSet member resolution in the collections index ([0f3fe8f](https://github.com/Samuellct/JellyUX-Homepage/commit/0f3fe8ff60e5ee8728e42cc7f28457058baa6e5d))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.5.0/jellyux-homepage_2.5.0.0.zip",
+                "checksum": "fb902855a87e6193f783e3d5f8da148c",
+                "timestamp": "2026-07-22T21:56:00Z"
+            },
+            {
+                "version": "2.4.1.0",
+                "changelog": "### Bug Fixes\n\n* repair broken native-style sort dialog and center empty-state messages ([6cdc1aa](https://github.com/Samuellct/JellyUX-Homepage/commit/6cdc1aaf53def5e3cf19f914fc0027cb55c97139))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.4.1/jellyux-homepage_2.4.1.0.zip",
+                "checksum": "f8cc4210a829dbabc0884ed32ff2289a",
+                "timestamp": "2026-07-22T17:21:20Z"
+            },
+            {
+                "version": "2.4.0.0",
+                "changelog": "### Features\n\n* add native Watchlist widget to the home screen ([cf0d211](https://github.com/Samuellct/JellyUX-Homepage/commit/cf0d211d56639be9980c34d2e9500b3982a939bf))\n* add Series Progress, Movie History, and Statistics views ([cbb9f09](https://github.com/Samuellct/JellyUX-Homepage/commit/cbb9f09b7343c5c33f16cc5a3d0b83addd190a07))\n* add shared UI helpers (empty state, loading spinner, progress bar, stat card, native sort dialog) ([0308376](https://github.com/Samuellct/JellyUX-Homepage/commit/0308376e8fec0a1e2a74fb14bec5ddd25fdb3946))\n* replace inline-styled controls with native-style sort dialogs and visual polish across all tabs ([1a96ce4](https://github.com/Samuellct/JellyUX-Homepage/commit/1a96ce463bc207c785e0bcd14fc571f64b9a046d)), closes [#00a4dc](https://github.com/Samuellct/JellyUX-Homepage/issues/00a4dc) [#00a4dc](https://github.com/Samuellct/JellyUX-Homepage/issues/00a4dc)\n\n### Bug Fixes\n\n* switch to IUserManager.GetUsers()/GetUsersIds() and align SDK versions ([7b70732](https://github.com/Samuellct/JellyUX-Homepage/commit/7b707326b77aa531dd169a8d2b6ada955d612047))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.4.0/jellyux-homepage_2.4.0.0.zip",
+                "checksum": "2b580e75c3dc27ea5ee1edb381b30c40",
+                "timestamp": "2026-07-22T15:25:03Z"
+            },
+            {
+                "version": "2.3.2.0",
+                "changelog": "### Bug Fixes\n\n* show the watchlist button on the item detail page ([bc77bde](https://github.com/Samuellct/JellyUX-Homepage/commit/bc77bde2b3d6b3237cc7d1dd0883c3428a10bc8b))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.3.2/jellyux-homepage_2.3.2.0.zip",
+                "checksum": "8cd2ea6df935d23613df64f01b293c70",
+                "timestamp": "2026-07-21T20:41:54Z"
+            },
+            {
+                "version": "2.3.1.0",
+                "changelog": "### Bug Fixes\n\n* revert to setAttribute for the injected tab buttons' is attribute ([c059504](https://github.com/Samuellct/JellyUX-Homepage/commit/c05950472d73421f6c0846fe7386c92ef6b4ed57))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.3.1/jellyux-homepage_2.3.1.0.zip",
+                "checksum": "c6f56ceb3f845cd248c8b2cbd4bbb31e",
+                "timestamp": "2026-07-21T17:35:26Z"
+            },
+            {
+                "version": "2.3.0.0",
+                "changelog": "### Features\n\n* add watchlist toggle to the item detail page and the More menu ([fb9616f](https://github.com/Samuellct/JellyUX-Homepage/commit/fb9616ffb235a921ac57c0d864e610bab7719b74))\n\n### Bug Fixes\n\n* reliably switch to injected home tabs on the first click ([e4cad1f](https://github.com/Samuellct/JellyUX-Homepage/commit/e4cad1feb868517e76d4f0fef1b33fb2d297cd8d))\n* render cover art in the Watchlist tab ([a23d1b9](https://github.com/Samuellct/JellyUX-Homepage/commit/a23d1b934c94c580a655587dbde88be3af8f22d5))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.3.0/jellyux-homepage_2.3.0.0.zip",
+                "checksum": "4389232a93465bc06320c39748975411",
+                "timestamp": "2026-07-21T17:22:33Z"
+            },
+            {
+                "version": "2.2.0.0",
+                "changelog": "### Features\n\n* add Watchlist tab with server-side filtering and sorting ([d184bd0](https://github.com/Samuellct/JellyUX-Homepage/commit/d184bd0d51a705bad90b15d75c69d4854af02594))\n* add watchlist toggle button to card overlays ([f67b81c](https://github.com/Samuellct/JellyUX-Homepage/commit/f67b81c700a8dc26488d321dde4b5cacfe7ff8ae))\n* automatically remove watched items from the watchlist ([2d66853](https://github.com/Samuellct/JellyUX-Homepage/commit/2d668531532e388a8fb9cb03290f177a92e4a04a))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.2.0/jellyux-homepage_2.2.0.0.zip",
+                "checksum": "680cb0f5d08972ad44b51bed17ea5c30",
+                "timestamp": "2026-07-21T14:40:01Z"
+            },
+            {
+                "version": "2.1.1.0",
+                "changelog": "### Bug Fixes\n\n* use distinct ids for JellyUX tab buttons and content panes ([17cc702](https://github.com/Samuellct/JellyUX-Homepage/commit/17cc7025c30b65cc4370fdc1db9ad89f3de9897c))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.1.1/jellyux-homepage_2.1.1.0.zip",
+                "checksum": "8682778443b7ee13ac427ddd9ddc2a52",
+                "timestamp": "2026-07-20T20:14:09Z"
+            },
+            {
+                "version": "2.1.0.0",
+                "changelog": "### Features\n\n* add generic server-side caches for exhaustive watch-history views ([ee7095e](https://github.com/Samuellct/JellyUX-Homepage/commit/ee7095e107a24b212aaa1f13aaffb93a5d23aabe))\n* add internal tab injection mechanism for Watchlist and related screens ([bece83e](https://github.com/Samuellct/JellyUX-Homepage/commit/bece83ef85cd10c3df640a4567b402a58515d243))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.1.0/jellyux-homepage_2.1.0.0.zip",
+                "checksum": "5293f0d8321f09115156f96adf9bd6ed",
+                "timestamp": "2026-07-20T19:34:05Z"
+            },
+            {
+                "version": "2.0.3.0",
+                "changelog": "### Bug Fixes\n\n* trigger release for Phase 3 cleanup batch ([94b25de](https://github.com/Samuellct/JellyUX-Homepage/commit/94b25dee6d41dddbb39b2a519a55f28c42b13e9a))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.0.3/jellyux-homepage_2.0.3.0.zip",
+                "checksum": "74ac82ac7a39f9f30fea3c84d5577027",
+                "timestamp": "2026-07-20T16:51:36Z"
+            },
+            {
+                "version": "2.0.2.0",
+                "changelog": "### Bug Fixes\n\n* handle JSON deserialization errors explicitly in TMDbApiClient ([47f3314](https://github.com/Samuellct/JellyUX-Homepage/commit/47f33149cf43539b9eb4d7ff7aa7826d610e88e0))\n* include series in Because You Watched scoring and recommendations ([a23b6ba](https://github.com/Samuellct/JellyUX-Homepage/commit/a23b6ba9a31a38cc6f821dad97161705c7ac87f0))\n* reject concurrent Rewards cache refresh requests ([c39aa99](https://github.com/Samuellct/JellyUX-Homepage/commit/c39aa992ed204825aac46225a576a505a9cf115f))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.0.2/jellyux-homepage_2.0.2.0.zip",
+                "checksum": "0c8e381aa9dbf94462942fb880b3b434",
+                "timestamp": "2026-07-19T20:31:54Z"
+            },
+            {
+                "version": "2.0.1.0",
+                "changelog": "### Bug Fixes\n\n* validate Wikidata Q-id format to prevent SPARQL injection ([5a6b236](https://github.com/Samuellct/JellyUX-Homepage/commit/5a6b236b7c95617fe946e4631417365f87dbc807))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.0.1/jellyux-homepage_2.0.1.0.zip",
+                "checksum": "57e01ea1e458e940255a1154151c3a37",
+                "timestamp": "2026-07-19T16:20:23Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "### ⚠ BREAKING CHANGES\n\n* the Personalized widget configuration schema changed -- MaxInstances is no\nlonger read by the widget engine for Personalized rows, replaced by a per-row rank\n(SchemaVersion 1->2, Plugin.MigrateConfiguration). Existing configurations are migrated\nautomatically on load; no manual action is required.\n\n### Features\n\n* complete V2 feature set ([d9f55bd](https://github.com/Samuellct/JellyUX-Homepage/commit/d9f55bd834a4425bc97c3adefc54451eab176f76))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v2.0.0/jellyux-homepage_2.0.0.0.zip",
+                "checksum": "edaa942390ff196555125bcf7a7043e1",
+                "timestamp": "2026-07-11T09:53:43Z"
+            },
+            {
+                "version": "1.8.2.0",
+                "changelog": "### Bug Fixes\n\n* enable automatic gzip/deflate decompression on the Wikidata HTTP client ([73b972d](https://github.com/Samuellct/JellyUX-Homepage/commit/73b972d20e0a4aaa806e644ae5bb2d45d8b00c70))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.8.2/jellyux-homepage_1.8.2.0.zip",
+                "checksum": "ae5fbdf1cc5d9631e028099e2d6b8236",
+                "timestamp": "2026-07-10T23:34:03Z"
+            },
+            {
+                "version": "1.8.1.0",
+                "changelog": "### Bug Fixes\n\n* harden WikidataApiClient error handling and surface failure details ([ce19449](https://github.com/Samuellct/JellyUX-Homepage/commit/ce194492f14d630f32ab55855e1a3e12f47609cd))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.8.1/jellyux-homepage_1.8.1.0.zip",
+                "checksum": "3777929cacde73bb369f85fd32334370",
+                "timestamp": "2026-07-10T23:15:58Z"
+            },
+            {
+                "version": "1.8.0.0",
+                "changelog": "### Features\n\n* add Rewards cache service with library cross-referencing ([6a11a8e](https://github.com/Samuellct/JellyUX-Homepage/commit/6a11a8e0a687088f7cc61837d864c24acefe54d0))\n* add Rewards widget and admin configuration UI ([5386527](https://github.com/Samuellct/JellyUX-Homepage/commit/53865271aab312014b7f4c5d9a06ad8990b67597))\n* add Wikidata SPARQL client for structured award data ([26867ab](https://github.com/Samuellct/JellyUX-Homepage/commit/26867abc3f3b842f9f2ab35a83f0b6be08b6ac6b))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.8.0/jellyux-homepage_1.8.0.0.zip",
+                "checksum": "78fc2ddbb10d9e3f550b9cb9746aae07",
+                "timestamp": "2026-07-10T22:41:06Z"
+            },
+            {
+                "version": "1.7.0.0",
+                "changelog": "### Features\n\n* expose ordered widget category names via GET /JuxHomepage/meta ([77246a2](https://github.com/Samuellct/JellyUX-Homepage/commit/77246a2f4f387683ad2d50a7f3d84c3a947ea922))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.7.0/jellyux-homepage_1.7.0.0.zip",
+                "checksum": "69fb8e417759495139e1e1fb49a48665",
+                "timestamp": "2026-07-09T23:53:16Z"
+            },
+            {
+                "version": "1.6.2.0",
+                "changelog": "### Bug Fixes\n\n* register FileTransformation before the best-effort TMDb refresh at startup ([09184bd](https://github.com/Samuellct/JellyUX-Homepage/commit/09184bdc0b4b9bcadb50e0e382981cc5ebf48511))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.6.2/jellyux-homepage_1.6.2.0.zip",
+                "checksum": "4cad4d19df8276c0aa260a4b73388be8",
+                "timestamp": "2026-07-09T22:41:17Z"
+            },
+            {
+                "version": "1.6.1.0",
+                "changelog": "### Bug Fixes\n\n* surface silent loadSections drift and unhandled TMDb status types ([0df27ca](https://github.com/Samuellct/JellyUX-Homepage/commit/0df27ca58abb4c3a0d23367ec5d095cedea1a492))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.6.1/jellyux-homepage_1.6.1.0.zip",
+                "checksum": "33fba4f1f620c1b5d0f9b69e9f7db6de",
+                "timestamp": "2026-07-08T21:54:46Z"
+            },
+            {
+                "version": "1.6.0.0",
+                "changelog": "### Features\n\n* compute per-row rank for Personalized widgets, replacing MaxInstances fan-out ([bb89e54](https://github.com/Samuellct/JellyUX-Homepage/commit/bb89e544649c48931521a2150097b53530288d7c))\n* migrate existing MaxInstances configuration into independent rows ([833686a](https://github.com/Samuellct/JellyUX-Homepage/commit/833686a830c118d0f16b0a790910f3b735344dfd))\n* update admin UI for the Personalized rank model ([5e46eec](https://github.com/Samuellct/JellyUX-Homepage/commit/5e46eec41e8436514eb71f8e7f0097c33ba4331d))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.6.0/jellyux-homepage_1.6.0.0.zip",
+                "checksum": "b972e494ea5dd8970015a38eb03f4799",
+                "timestamp": "2026-07-08T10:13:33Z"
+            },
+            {
+                "version": "1.5.1.0",
+                "changelog": "### Bug Fixes\n\n* move plugin data directories out of Jellyfin's scanned plugins tree ([96f0a76](https://github.com/Samuellct/JellyUX-Homepage/commit/96f0a761d777d9e95c382605c4269e78eb0bb4ff))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.5.1/jellyux-homepage_1.5.1.0.zip",
+                "checksum": "1ba666d6c767040e118053338edcc7d0",
+                "timestamp": "2026-07-07T23:10:55Z"
+            },
+            {
+                "version": "1.5.0.0",
+                "changelog": "### Features\n\n* surface external widget-pack load failures in the admin config page ([0a1548a](https://github.com/Samuellct/JellyUX-Homepage/commit/0a1548a631dd30d4da101083f9821fa8c044f7bc))\n\n### Bug Fixes\n\n* scope external widget-pack loading to a dedicated folder with actionable errors ([479f748](https://github.com/Samuellct/JellyUX-Homepage/commit/479f74824227ee14e5ffd525ebb19a5d47d2146c))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.5.0/jellyux-homepage_1.5.0.0.zip",
+                "checksum": "7ff90d08ea9960c9cd2718a69b5fe718",
+                "timestamp": "2026-07-07T22:31:57Z"
+            },
+            {
+                "version": "1.4.0.0",
+                "changelog": "### Features\n\n* log unresolved cached library items in ConnectedWidgetBase ([e0ac15c](https://github.com/Samuellct/JellyUX-Homepage/commit/e0ac15cf68d248d1eb847309896409068a0c480d))\n\n### Bug Fixes\n\n* improve logging context and minor code quality cleanups ([77f3328](https://github.com/Samuellct/JellyUX-Homepage/commit/77f332851feca5a63212248a35c8de4a982509fc))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.4.0/jellyux-homepage_1.4.0.0.zip",
+                "checksum": "89295ebc0011882e69f2621df1225ff1",
+                "timestamp": "2026-07-06T21:53:57Z"
+            },
+            {
+                "version": "1.3.1.0",
+                "changelog": "### Bug Fixes\n\n* log when a manual TMDb refresh request is rejected as already in progress ([3413211](https://github.com/Samuellct/JellyUX-Homepage/commit/3413211dee7f5d21736bc553ade41390ee38cf46))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.3.1/jellyux-homepage_1.3.1.0.zip",
+                "checksum": "c4217c3169132fd42cb3b760b21a3aaa",
+                "timestamp": "2026-07-06T18:00:53Z"
+            },
+            {
+                "version": "1.3.0.0",
+                "changelog": "### Features\n\n* add circuit breaker to TMDb HTTP client for sustained outages ([f0f39ce](https://github.com/Samuellct/JellyUX-Homepage/commit/f0f39cee08ff609373a7dd92bcb020e539f0a805))\n\n### Bug Fixes\n\n* make Top Rated vote count threshold configurable via discover ([7007a3c](https://github.com/Samuellct/JellyUX-Homepage/commit/7007a3c66dafb041712e8f6a5ab2000bbd34e481))\n* reject concurrent manual TMDb refresh requests ([8a18671](https://github.com/Samuellct/JellyUX-Homepage/commit/8a18671f9364873c17906ebc0288065e8f058b41))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.3.0/jellyux-homepage_1.3.0.0.zip",
+                "checksum": "0d0163956b192bba32c558081840e565",
+                "timestamp": "2026-07-06T15:24:12Z"
+            },
+            {
+                "version": "1.2.0.0",
+                "changelog": "### Features\n\n* introduce IFileSystem abstraction for testable file access ([7e9fca9](https://github.com/Samuellct/JellyUX-Homepage/commit/7e9fca920319f7325727a8bd33de0b553e9f4a8f))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.2.0/jellyux-homepage_1.2.0.0.zip",
+                "checksum": "1fe8047847fa932687ac4bc4b63a56f2",
+                "timestamp": "2026-07-06T13:40:14Z"
+            },
+            {
+                "version": "1.1.0.0",
+                "changelog": "### Features\n\n* add SchemaVersion field and migration hook to configuration models ([18b72bd](https://github.com/Samuellct/JellyUX-Homepage/commit/18b72bd354af70d7ff9c96d9b33fc9e8f9ccef04))\n\n### Bug Fixes\n\n* validate configuration on load, not only on admin save ([383a8ef](https://github.com/Samuellct/JellyUX-Homepage/commit/383a8ef6c97596cadfedfda84fd8722996aa9a09))\n* write user configuration atomically to avoid partial writes on crash ([62959c9](https://github.com/Samuellct/JellyUX-Homepage/commit/62959c9c88728613e51b7cf87dcbb313888f18fe))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.1.0/jellyux-homepage_1.1.0.0.zip",
+                "checksum": "d592c12d457f9e91470734195e32a611",
+                "timestamp": "2026-07-06T12:23:39Z"
+            },
+            {
+                "version": "1.0.2.0",
+                "changelog": "### Bug Fixes\n\n* fall back to native rendering on any error inside the spliced loadSections fragment ([ecf2b8c](https://github.com/Samuellct/JellyUX-Homepage/commit/ecf2b8c5e5a49916cf7b2c9071fe36d53e46e9d1))\n* guard reflective FileTransformation invocation with explicit error handling ([1aec924](https://github.com/Samuellct/JellyUX-Homepage/commit/1aec92472c8e58f126fcd34d5fbdb2b9c635f530))\n* prevent IDOR by validating userId against the authenticated identity ([ca4ca4e](https://github.com/Samuellct/JellyUX-Homepage/commit/ca4ca4ec806cba6fbe44176f8da3f09d65b77724))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.0.2/jellyux-homepage_1.0.2.0.zip",
+                "checksum": "92fec2e15b7e40ad12abad8612e9b0a6",
+                "timestamp": "2026-07-06T08:35:43Z"
+            },
+            {
+                "version": "1.0.1.0",
+                "changelog": "### Bug Fixes\n\n* replace plugin icon ([b0b8c56](https://github.com/Samuellct/JellyUX-Homepage/commit/b0b8c56ff865e380dbb71e0b8815e42f0dfde7e0))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.0.1/jellyux-homepage_1.0.1.0.zip",
+                "checksum": "525516339c479df46a56cd118fb52b16",
+                "timestamp": "2026-07-05T20:52:05Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "### ⚠ BREAKING CHANGES\n\n* initial stable release, API surface is now stable\n\n### Features\n\n* complete V1 feature set ([27222c2](https://github.com/Samuellct/JellyUX-Homepage/commit/27222c247f4d4c25c5712445248ab233beae25c3))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v1.0.0/jellyux-homepage_1.0.0.0.zip",
+                "checksum": "e801b060b09bf3cad6e0ae0779dfc6b7",
+                "timestamp": "2026-07-04T18:10:19Z"
+            },
+            {
+                "version": "0.13.1.0",
+                "changelog": "### Bug Fixes\n\n* ensure BREAKING CHANGE commits trigger a major release ([7a28bf0](https://github.com/Samuellct/JellyUX-Homepage/commit/7a28bf092868ae28ec0020035220f7245ca84330))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.13.1/jellyux-homepage_0.13.1.0.zip",
+                "checksum": "e4457479097edf177d00c13e58ab4469",
+                "timestamp": "2026-07-04T18:07:24Z"
+            },
+            {
+                "version": "0.13.0.0",
+                "changelog": "### Features\n\n* enable JellyUX home rendering inside native shell clients ([9c0ac77](https://github.com/Samuellct/JellyUX-Homepage/commit/9c0ac7728e447bafa247fefa28ac0cac0072bbb3))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.13.0/jellyux-homepage_0.13.0.0.zip",
+                "checksum": "51692a7872502a6fdcfaafea743ba404",
+                "timestamp": "2026-07-04T15:21:00Z"
+            },
+            {
+                "version": "0.12.1.0",
+                "changelog": "### Bug Fixes\n\n* improve error handling and logging robustness ([4e2d3c2](https://github.com/Samuellct/JellyUX-Homepage/commit/4e2d3c220a6781e81821858a8fdc589e190ed3d6))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.12.1/jellyux-homepage_0.12.1.0.zip",
+                "checksum": "fd73d08f26867b2da80b015ad118c95b",
+                "timestamp": "2026-07-04T14:35:33Z"
+            },
+            {
+                "version": "0.12.0.0",
+                "changelog": "### Features\n\n* add French and English language files ([3b114b2](https://github.com/Samuellct/JellyUX-Homepage/commit/3b114b20d3bc6b9889e7ce849add3a0ffaec2b24))\n* add localization service with JSON language files ([c7494b2](https://github.com/Samuellct/JellyUX-Homepage/commit/c7494b226bdb94ce23d8f467beba1cb6aac7e234))\n* apply i18n to all widgets and admin UI ([b4ffec1](https://github.com/Samuellct/JellyUX-Homepage/commit/b4ffec175a30a8a7970bcba87439fa503fb1670f))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.12.0/jellyux-homepage_0.12.0.0.zip",
+                "checksum": "9b3195ad3d1b8c3af9b0cf0fc0602d2d",
+                "timestamp": "2026-07-03T20:22:19Z"
+            },
+            {
+                "version": "0.11.2.0",
+                "changelog": "### Bug Fixes\n\n* deduplicate TMDb list items by id before caching ([28ce003](https://github.com/Samuellct/JellyUX-Homepage/commit/28ce00367ca00002765357f74ff8380d51a72b19))\n* remove Upcoming Movies widget (unusable in the Connected model, never matches local library) ([a492557](https://github.com/Samuellct/JellyUX-Homepage/commit/a492557f9c2813bccf5af9f9373d764024608b9a))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.11.2/jellyux-homepage_0.11.2.0.zip",
+                "checksum": "00b4dd51ef2a688c3a6948c8810459e4",
+                "timestamp": "2026-07-03T17:01:47Z"
+            },
+            {
+                "version": "0.11.1.0",
+                "changelog": "### Bug Fixes\n\n* broaden On TV widget results using tv/on_the_air instead of tv/airing_today ([74543a3](https://github.com/Samuellct/JellyUX-Homepage/commit/74543a34a3746fb6c89c8b9474db27bca7962945))\n* stop background TMDb status poll from wiping unsaved Pages/Region edits ([5dd8c0a](https://github.com/Samuellct/JellyUX-Homepage/commit/5dd8c0a83e67903790e4a27d2fcebb7f2d5b997b))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.11.1/jellyux-homepage_0.11.1.0.zip",
+                "checksum": "4e87207aa141fb7357a1e851e68059eb",
+                "timestamp": "2026-07-02T21:09:23Z"
+            },
+            {
+                "version": "0.11.0.0",
+                "changelog": "### Features\n\n* add configurable pagination to TMDb list fetches ([f1868e1](https://github.com/Samuellct/JellyUX-Homepage/commit/f1868e14532babaaa6d8b0070a2d12911441548a))\n* add customizable DiscoverMoviesWidget with TMDb autocomplete ([24d9db7](https://github.com/Samuellct/JellyUX-Homepage/commit/24d9db75f3ce50f712bfdf0daed425d7c048d64a))\n* add TopRatedMoviesWidget, TopRatedShowsWidget, and NowPlayingMoviesWidget ([3b86684](https://github.com/Samuellct/JellyUX-Homepage/commit/3b866845efc1bc514c3978e0d129683f8e280e8d))\n\n### Bug Fixes\n\n* match widget config row by instance value in on-demand section fetch ([bb9261d](https://github.com/Samuellct/JellyUX-Homepage/commit/bb9261dd38d0bd5bbe6552299dc9b98e90dfcf62))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.11.0/jellyux-homepage_0.11.0.0.zip",
+                "checksum": "557a5c2b887de569025f2bced46c660b",
+                "timestamp": "2026-07-02T20:16:06Z"
+            },
+            {
+                "version": "0.10.1.0",
+                "changelog": "### Bug Fixes\n\n* preserve existing TMDb cache instead of overwriting with an empty result ([7d148fb](https://github.com/Samuellct/JellyUX-Homepage/commit/7d148fb30146675d023ec018846e318b59a83854))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.10.1/jellyux-homepage_0.10.1.0.zip",
+                "checksum": "252b2dd85623fac270baba6407f5339e",
+                "timestamp": "2026-07-02T19:01:38Z"
+            },
+            {
+                "version": "0.10.0.0",
+                "changelog": "### Features\n\n* add TMDb refresh status and manual trigger in admin UI ([557a5ff](https://github.com/Samuellct/JellyUX-Homepage/commit/557a5ffe008085b8304c8c0dd657705b9651337d))\n* add TrendingMoviesWidget ([3386e63](https://github.com/Samuellct/JellyUX-Homepage/commit/3386e635ed0f09806147f9ccab6be0b999740ddf))\n* add TrendingShowsWidget, AiringTodayShowsWidget, UpcomingMoviesWidget ([4da93dc](https://github.com/Samuellct/JellyUX-Homepage/commit/4da93dc089022727631e8b3d6dfccda25929aaa2))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.10.0/jellyux-homepage_0.10.0.0.zip",
+                "checksum": "7348771eb1ef25f9f1bb6946f52a6d41",
+                "timestamp": "2026-07-02T16:48:21Z"
+            },
+            {
+                "version": "0.9.1.0",
+                "changelog": "### Bug Fixes\n\n* log explicit per-type item and library-match counts on TMDb refresh ([02faa10](https://github.com/Samuellct/JellyUX-Homepage/commit/02faa1011c92a5838e69d21a13a0c822922c40c0))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.9.1/jellyux-homepage_0.9.1.0.zip",
+                "checksum": "5b1fc45e9bca113ae64278b525f25875",
+                "timestamp": "2026-07-02T15:29:12Z"
+            },
+            {
+                "version": "0.9.0.0",
+                "changelog": "### Features\n\n* add TMDb cache service with library cross-referencing ([0bea103](https://github.com/Samuellct/JellyUX-Homepage/commit/0bea103046ce0269333f34566c4a5e2fb6eccfa3))\n* add TMDb daily refresh scheduled task ([a35b023](https://github.com/Samuellct/JellyUX-Homepage/commit/a35b0234bc59a16164989ae95691c54e0ae44e49))\n* add TMDb HTTP client with error handling ([a8e5496](https://github.com/Samuellct/JellyUX-Homepage/commit/a8e54962271cc167abde34103436fc6210363d93))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.9.0/jellyux-homepage_0.9.0.0.zip",
+                "checksum": "e89927d1dfa76252da058f4df1973d19",
+                "timestamp": "2026-07-02T14:33:18Z"
+            },
+            {
+                "version": "0.8.0.0",
+                "changelog": "### Features\n\n* add BecauseYouWatchedWidget ([65843dc](https://github.com/Samuellct/JellyUX-Homepage/commit/65843dcb430fec9ec8c1cfa6cef728f70fd34561))\n* add FavoriteActorWidget and FavoriteDirectorWidget ([caa693f](https://github.com/Samuellct/JellyUX-Homepage/commit/caa693fbbeac2b6ab4876ea7a88f0d5176798102))\n* add PersonalizedWidget base class and FavoriteGenreWidget ([2744341](https://github.com/Samuellct/JellyUX-Homepage/commit/27443413cfb9482e06107f0c4cf762968977d821))\n* add ScoringService for user preference analysis ([a5a85f0](https://github.com/Samuellct/JellyUX-Homepage/commit/a5a85f051296bc0152e6cda1b5523ed810a55c43))\n* emit one descriptor per widget instance from CreateInstances fan-out ([4b0bac6](https://github.com/Samuellct/JellyUX-Homepage/commit/4b0bac69cc4d1a6251a2e3287555218eb25a2134))\n* register personalized widgets and add management UI ([a73bdcd](https://github.com/Samuellct/JellyUX-Homepage/commit/a73bdcd2a5f833726ee41cede2ebd96f9e9ff44e))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.8.0/jellyux-homepage_0.8.0.0.zip",
+                "checksum": "fc8e0279474d5566835c7512154f9e09",
+                "timestamp": "2026-07-01T21:14:26Z"
+            },
+            {
+                "version": "0.7.1.0",
+                "changelog": "### Bug Fixes\n\n* add search-as-you-type autocomplete and restore collection label on reload ([57a9a74](https://github.com/Samuellct/JellyUX-Homepage/commit/57a9a740cdd08a8b752587e6c3b7c0791364c96c))\n* resolve collection items via BoxSet linked children instead of AncestorIds ([43a2d28](https://github.com/Samuellct/JellyUX-Homepage/commit/43a2d28142cc9a70ccc08209f7d5488f3af02b7a))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.7.1/jellyux-homepage_0.7.1.0.zip",
+                "checksum": "7178b84da942fd058d19580833befeeb",
+                "timestamp": "2026-07-01T20:05:12Z"
+            },
+            {
+                "version": "0.7.0.0",
+                "changelog": "### Features\n\n* add ActorWidget and DirectorWidget ([430fdcf](https://github.com/Samuellct/JellyUX-Homepage/commit/430fdcf32af9e611fd9d66e23b81325bb211dd8d))\n* add admin widget management UI with value autocomplete ([276c952](https://github.com/Samuellct/JellyUX-Homepage/commit/276c952357e6f456abad41fc69a57438edecb098))\n* add AdminWidget base class with library value provider ([b77fa9e](https://github.com/Samuellct/JellyUX-Homepage/commit/b77fa9ea18ee80e80c9a2aa5fc7d6e19311c62d9))\n* add GenreWidget ([8a0b896](https://github.com/Samuellct/JellyUX-Homepage/commit/8a0b896855a4c4ac72b69e842b3d49dbc92d5efc))\n* add StudioWidget, CollectionWidget, TagWidget, YearWidget ([8b9ac85](https://github.com/Samuellct/JellyUX-Homepage/commit/8b9ac85ff3300baa4531494a93cc12f217d3888e))\n* add widget values endpoint for admin autocomplete ([d85b2a2](https://github.com/Samuellct/JellyUX-Homepage/commit/d85b2a2a066e7c97e32b7a35481ab830f292cefe))\n* propagate per-instance AdditionalData through widget layout ([62a76dc](https://github.com/Samuellct/JellyUX-Homepage/commit/62a76dc98dd6eaeb7fcb6af3a4bbb684c96e2a05))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.7.0/jellyux-homepage_0.7.0.0.zip",
+                "checksum": "771112374be84339676873240f08489d",
+                "timestamp": "2026-07-01T17:20:12Z"
+            },
+            {
+                "version": "0.6.2.0",
+                "changelog": "### Bug Fixes\n\n* strip remaining is=emby-* attributes to silence webcomponents polyfill errors ([76c18d3](https://github.com/Samuellct/JellyUX-Homepage/commit/76c18d39bf9b7e642a6df4ac5fddfbd38d24291b))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.6.2/jellyux-homepage_0.6.2.0.zip",
+                "checksum": "a07e1c7fe4d5eb8bbb8418276c41ca51",
+                "timestamp": "2026-06-30T22:04:31Z"
+            },
+            {
+                "version": "0.6.1.0",
+                "changelog": "### Bug Fixes\n\n* remove is=emby-checkbox to prevent htmlFor error in webcomponents polyfill ([199844a](https://github.com/Samuellct/JellyUX-Homepage/commit/199844a9bc584d7ecd4624acfa7ca3e2b01a69c0))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.6.1/jellyux-homepage_0.6.1.0.zip",
+                "checksum": "66cb3eb31c513e0e045811a33bab4606",
+                "timestamp": "2026-06-30T21:51:05Z"
+            },
+            {
+                "version": "0.6.0.0",
+                "changelog": "### Features\n\n* add admin configuration page with widget management UI ([754b793](https://github.com/Samuellct/JellyUX-Homepage/commit/754b793708611b236a27a38a578b2ecaecdca9da))\n* invalidate session cache when configuration changes ([46df34e](https://github.com/Samuellct/JellyUX-Homepage/commit/46df34e31dc5dd46468dd287f3b4900278d2d7ba))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.6.0/jellyux-homepage_0.6.0.0.zip",
+                "checksum": "c628dd341c088f90461ed6d30fe44b5e",
+                "timestamp": "2026-06-30T21:14:34Z"
+            },
+            {
+                "version": "0.5.1.0",
+                "changelog": "### Bug Fixes\n\n* resolve broken see-all links for recently-added sections ([5e6ec17](https://github.com/Samuellct/JellyUX-Homepage/commit/5e6ec173d26edc4ea3c60dad92f33b1b21da7a11))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.5.1/jellyux-homepage_0.5.1.0.zip",
+                "checksum": "2dc844b8fa5acc77afb51f7fbe5fbe1e",
+                "timestamp": "2026-06-30T17:06:14Z"
+            },
+            {
+                "version": "0.5.0.0",
+                "changelog": "### Features\n\n* add client detection and JellyfinAPI global attachment ([cad02fc](https://github.com/Samuellct/JellyUX-Homepage/commit/cad02fcf622af8f27582f0d9db194093c7a37894))\n* implement loadSections override with API-driven widget rendering ([961fda5](https://github.com/Samuellct/JellyUX-Homepage/commit/961fda53431e5d3e2bfcce416b5c5c0e87e2bbb4))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.5.0/jellyux-homepage_0.5.0.0.zip",
+                "checksum": "ad5504f5bfe748d99f6afc1e08e9cd0c",
+                "timestamp": "2026-06-30T15:42:47Z"
+            },
+            {
+                "version": "0.4.0.0",
+                "changelog": "### Features\n\n* add ContinueWatchingWidget ([fd73acd](https://github.com/Samuellct/JellyUX-Homepage/commit/fd73acd6a8591dce3fb7f6e5c957efbd68833bc5))\n* add MyMediaWidget ([04626ed](https://github.com/Samuellct/JellyUX-Homepage/commit/04626ed3e80580057a0107c5a58b7d7ffa170a0b))\n* add NativeWidgetBase shared base class for native widgets ([68a41e4](https://github.com/Samuellct/JellyUX-Homepage/commit/68a41e4a4c8d45a19bd5db3c10f4944ebe9b51b4))\n* add NextUpWidget ([3db6221](https://github.com/Samuellct/JellyUX-Homepage/commit/3db6221af8dc2fdab4a81ba4c84da364adb19576))\n* add RecentlyAddedMoviesWidget and RecentlyAddedShowsWidget ([2f3bd63](https://github.com/Samuellct/JellyUX-Homepage/commit/2f3bd63833a2f9cf854cb158dfdcc12c105e3140))\n* register native widgets with default configuration ([594df9f](https://github.com/Samuellct/JellyUX-Homepage/commit/594df9fecb6a81bb7a8ce53cf13490569b561996))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.4.0/jellyux-homepage_0.4.0.0.zip",
+                "checksum": "5519b26cd32945ed1b1b0dd6694232a3",
+                "timestamp": "2026-06-29T20:07:25Z"
+            },
+            {
+                "version": "0.3.1.0",
+                "changelog": "### Bug Fixes\n\n* replace Dictionary ExtraParams with WidgetExtraParam array for XmlSerializer compatibility ([ed67721](https://github.com/Samuellct/JellyUX-Homepage/commit/ed677215aa319d8b0f37624b5914ea9b44c63eb1))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.3.1/jellyux-homepage_0.3.1.0.zip",
+                "checksum": "87f1b331acba8b243d5f407d00a3d8cd",
+                "timestamp": "2026-06-29T16:37:25Z"
+            },
+            {
+                "version": "0.3.0.0",
+                "changelog": "### Features\n\n* add API endpoints for sections, items and configuration ([8222a75](https://github.com/Samuellct/JellyUX-Homepage/commit/8222a75443d19c2ef380ca0895b8deee772f6f41))\n* add complete plugin and user configuration models ([891de7c](https://github.com/Samuellct/JellyUX-Homepage/commit/891de7c7c73d4de6724939ac253464656a893e25))\n* add widget engine core interfaces and models ([f42bece](https://github.com/Samuellct/JellyUX-Homepage/commit/f42bece0dba534cfdde3ca932ef610d49345b9c7))\n* add widget registry with external DLL discovery ([4703498](https://github.com/Samuellct/JellyUX-Homepage/commit/47034986986fcdf06ac9952bd6714c52049c25b8))\n* add widget service with session cache and MinItems filtering ([27d226a](https://github.com/Samuellct/JellyUX-Homepage/commit/27d226a85648d85d3cfe5478d0107fdaa8ab74d1))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.3.0/jellyux-homepage_0.3.0.0.zip",
+                "checksum": "a737aec8e96bcab8d3aa901f12d701ba",
+                "timestamp": "2026-06-29T15:20:09Z"
+            },
+            {
+                "version": "0.2.0.0",
+                "changelog": "### Features\n\n* add controller endpoints for web resources and meta ([47df8a9](https://github.com/Samuellct/JellyUX-Homepage/commit/47df8a910bf7feac8e5679c8570f4f643f63fb94))\n* add embedded web resource placeholders ([8721595](https://github.com/Samuellct/JellyUX-Homepage/commit/8721595000deb0aba5f20bc9e245010bdeec0bd4))\n* add FileTransformation detector with explicit error on missing dependency ([55afd38](https://github.com/Samuellct/JellyUX-Homepage/commit/55afd3876d45d250edc3f38e0a2e63e52f76e361))\n* inject CSS and JS into index.html via FileTransformation ([6ca0f74](https://github.com/Samuellct/JellyUX-Homepage/commit/6ca0f7406af0829d4e95ac5689678710b73d7dd5))",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.2.0/jellyux-homepage_0.2.0.0.zip",
+                "checksum": "9e9d59202996926411d3aefca597a8e4",
+                "timestamp": "2026-06-28T16:18:23Z"
+            },
+            {
+                "version": "0.1.1.0",
+                "changelog": "### Bug Fixes\n\n* correct sourceUrl in manifest and plugin-url in release workflow ([9a3769a](https://github.com/Samuellct/JellyUX-Homepage/commit/9a3769af4d9969023e254ac67a892c752d65c5ad))\n* remove stale task reference comment from PluginServiceRegistrator ([0442ed2](https://github.com/Samuellct/JellyUX-Homepage/commit/0442ed24f1fc02bba2945f3e091026830ffa4936))\n\n# Changelog\n\n<!-- Entries above this line are generated automatically by semantic-release. -->",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.1.1/jellyux-homepage_0.1.1.0.zip",
+                "checksum": "2ae72ad8ff1c3f1f6650555f42f789e0",
+                "timestamp": "2026-06-28T11:12:51Z"
+            },
+            {
+                "version": "0.1.0.0",
+                "changelog": "",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Samuellct/JellyUX-Homepage/releases/download/v0.1.0/jellyux-homepage_0.1.0.0.zip",
+                "checksum": "d55e83fa94a9b693b043653fc36c9950",
+                "timestamp": "2026-06-28T09:59:05Z"
+            }
+        ]
+    },
+    {
+        "guid": "dbcf4f1f-bc0c-4681-b79a-cbd2294b2538",
+        "name": "Keep or Remove",
+        "overview": "Vote keep or remove on library media to help the admin decide what stays.",
+        "description": "A temporary decision-support plugin: each user votes keep or remove on movies and series; the admin gets an aggregated read-only view for manual library rotation. Never modifies the library.",
+        "owner": "Samuellct",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/JellyUX/Keep_or_Remove/main/docs/icon.png",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "### ⚠ BREAKING CHANGES\n\n* First stable release. The HTTP API under /KeepOrRemove\nand the votes.json schema (schema: 1) are now covered by SemVer; any\nincompatible change bumps the major version.\n\n### Features\n\n* stabilise the public HTTP API and votes.json schema for 1.0.0 ([cbfd6c4](https://github.com/JellyUX/Keep_or_Remove/commit/cbfd6c4cf19bfac3fbc93c7a651a685552c177bf))",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/JellyUX/Keep_or_Remove/releases/download/v1.0.0/keep-or-remove_1.0.0.0.zip",
+                "checksum": "3da03b7ce4846859d0d483c009314363",
+                "timestamp": "2026-09-02T14:57:45Z"
+            },
+            {
+                "version": "0.3.0.0",
+                "changelog": "### Features\n\n* add sort and type filter controls to the admin table ([287126f](https://github.com/JellyUX/Keep_or_Remove/commit/287126f5a13094d73a5a0a27ed06f8182c0517b4))\n* render the aggregated results table on the config page ([fc94885](https://github.com/JellyUX/Keep_or_Remove/commit/fc94885e460e40bab50907860ddcc56bedde14f9))\n* surface the startup warning on the config page ([c6a4ec0](https://github.com/JellyUX/Keep_or_Remove/commit/c6a4ec04729e13dad0a03d66643bad7a7ed6a491))\n* wire the orphan vote purge button ([f9c3dc9](https://github.com/JellyUX/Keep_or_Remove/commit/f9c3dc97cff03dbf4f18de5c833f7b9740d68bb5))",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/JellyUX/Keep_or_Remove/releases/download/v0.3.0/keep-or-remove_0.3.0.0.zip",
+                "checksum": "4b2ce94c412b7f3bd2a13aee5ec66425",
+                "timestamp": "2026-09-01T21:06:18Z"
+            },
+            {
+                "version": "0.2.0.0",
+                "changelog": "### Features\n\n* add the vote state transition helper ([729fa29](https://github.com/JellyUX/Keep_or_Remove/commit/729fa29460ced744d245cc2a7eb91498d32237d3))\n* cast, change and clear votes from the detail page ([07f77dd](https://github.com/JellyUX/Keep_or_Remove/commit/07f77dde7f5f5638015657caab63d1de12b6133e))",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/JellyUX/Keep_or_Remove/releases/download/v0.2.0/keep-or-remove_0.2.0.0.zip",
+                "checksum": "cf97debff1106209dc58deb53d9bf63c",
+                "timestamp": "2026-08-29T16:50:26Z"
+            },
+            {
+                "version": "0.1.0.0",
+                "changelog": "### Features\n\n* honour the plugin enabled toggle in the web client ([d909ef4](https://github.com/JellyUX/Keep_or_Remove/commit/d909ef44205dea9f944ad59019cf4fe8213f758c))\n* render the keep and remove buttons on the detail page ([2ecb8bd](https://github.com/JellyUX/Keep_or_Remove/commit/2ecb8bda6ffcc42700c54f4acd769e4319fa6827))",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/JellyUX/Keep_or_Remove/releases/download/v0.1.0/keep-or-remove_0.1.0.0.zip",
+                "checksum": "32dcf7515eb3c94bccfcd2efbba7ca46",
+                "timestamp": "2026-08-29T12:20:19Z"
+            },
+            {
+                "version": "0.0.2.0",
+                "changelog": "### Bug Fixes\n\n* reject vote payloads outside the two allowed values ([a8435f6](https://github.com/JellyUX/Keep_or_Remove/commit/a8435f6ce607c0c51e4e9baa8b90c7b4fe32e784))\n* return 503 when vote storage cannot be read ([11caec5](https://github.com/JellyUX/Keep_or_Remove/commit/11caec59761c5588c181b2b8c951393574505c48))",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/JellyUX/Keep_or_Remove/releases/download/v0.0.2/keep-or-remove_0.0.2.0.zip",
+                "checksum": "acb82dba21b233c43bf48f4cc75bcede",
+                "timestamp": "2026-08-29T11:07:13Z"
+            }
+        ]
+    }
+]
