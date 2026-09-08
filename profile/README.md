@@ -10,6 +10,7 @@ uninstalled with no residue.
 
 | Plugin | What it does |
 |---|---|
+| **[Easy Notif](https://github.com/JellyUX/Easy_Notif)** | An internal email notification service. Scheduled new-media newsletters, a personalised weekly watch recap per user, and one-off admin announcements. Delivery via Resend. Reads the library and playback data only. |
 | **[Homepage](https://github.com/JellyUX/Homepage)** | A modular home screen engine. Replaces the default Jellyfin landing page with configurable widgets for native content, personalized recommendations, and external sources. |
 | **[Keep or Remove](https://github.com/JellyUX/Keep_or_Remove)** | Users vote keep or remove on movies and series; the admin gets a read-only aggregated table to decide library rotation by hand. Never modifies the library. |
 
