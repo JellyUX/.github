@@ -9,6 +9,14 @@
         "imageUrl": "https://raw.githubusercontent.com/JellyUX/Easy_Notif/main/docs/icon.png",
         "versions": [
             {
+                "version": "1.0.1.0",
+                "changelog": "### Bug Fixes\n\n* cap template nesting depth so a preview cannot crash the server ([8a2ade7](https://github.com/JellyUX/Easy_Notif/commit/8a2ade7329be722f7bf3fecc8fc777f461922a00))\n* keep only the most recent corrupt-file backup ([de3a2d5](https://github.com/JellyUX/Easy_Notif/commit/de3a2d54025e4cfe0d1c963dd6a840ae0cc1c82c))\n* keep the playback and added-item drains alive after a write error ([4b0fa72](https://github.com/JellyUX/Easy_Notif/commit/4b0fa72b1d709fbaf9000ce347bdc9b5b1e93231))\n* meter and rate-limit the me/test send path ([ec2ab5d](https://github.com/JellyUX/Easy_Notif/commit/ec2ab5dbbec4744e062a989a6d28a01924810f1d))\n* purge a user's data when the Jellyfin account is deleted ([43a00ad](https://github.com/JellyUX/Easy_Notif/commit/43a00ad10418ad6dcf6caf2cc973be6720916d59))\n* store transport secrets outside the serialized plugin configuration ([680c864](https://github.com/JellyUX/Easy_Notif/commit/680c86429203946eff27e255ce17cd01a3dc809c))",
+                "targetAbi": "10.11.10.0",
+                "sourceUrl": "https://github.com/JellyUX/Easy_Notif/releases/download/v1.0.1/easy-notif_1.0.1.0.zip",
+                "checksum": "b07a64ebcf7fb8cb546ae2f57c76a30b",
+                "timestamp": "2026-09-09T10:09:28Z"
+            },
+            {
                 "version": "1.0.0.0",
                 "changelog": "### ⚠ BREAKING CHANGES\n\n* from 1.0.0 the /EasyNotif HTTP API (routes, verbs, status\ncodes) and the schema:1 on-disk file formats (preferences.json, campaigns.json,\nquota.json, added-items.json, playback-history.json) are covered by SemVer. The\nunused PluginConfiguration.Enabled and PlaybackBackfilled fields are removed;\nexisting config XML keeps loading because XmlSerializer ignores unknown elements.\n\n### Features\n\n* stabilise the public API and file formats for 1.0.0 ([7b965cf](https://github.com/JellyUX/Easy_Notif/commit/7b965cfc61a5bebe333920bc24b1d2ffec477f8e))\n\n### Bug Fixes\n\n* render the startup warning banner in the warning colour ([9d60e71](https://github.com/JellyUX/Easy_Notif/commit/9d60e7145ac305dd28cef823107327b505ea8533))\n* return 503 when a storage error hits the unsubscribe endpoint ([3e3c946](https://github.com/JellyUX/Easy_Notif/commit/3e3c946afe68fe7532e84d405b77af542108f962))\n* write the dev meta.json without a BOM so Jellyfin can parse it ([cd93d5c](https://github.com/JellyUX/Easy_Notif/commit/cd93d5cd4399d8dfb591b7e9be3bf79ba49af87a))",
                 "targetAbi": "10.11.10.0",
