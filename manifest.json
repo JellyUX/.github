@@ -9,6 +9,14 @@
         "imageUrl": "https://raw.githubusercontent.com/JellyUX/Easy_Notif/main/docs/icon.png",
         "versions": [
             {
+                "version": "1.0.2.0",
+                "changelog": "### Bug Fixes\n\n* validate the public server URL before storing it ([12a0097](https://github.com/JellyUX/Easy_Notif/commit/12a00970415ec8e566e18dcd22dd855e99bfc947))",
+                "targetAbi": "10.11.10.0",
+                "sourceUrl": "https://github.com/JellyUX/Easy_Notif/releases/download/v1.0.2/easy-notif_1.0.2.0.zip",
+                "checksum": "8deeffa6433d88025ca6fa6a36f65051",
+                "timestamp": "2026-09-09T12:36:31Z"
+            },
+            {
                 "version": "1.0.1.0",
                 "changelog": "### Bug Fixes\n\n* cap template nesting depth so a preview cannot crash the server ([8a2ade7](https://github.com/JellyUX/Easy_Notif/commit/8a2ade7329be722f7bf3fecc8fc777f461922a00))\n* keep only the most recent corrupt-file backup ([de3a2d5](https://github.com/JellyUX/Easy_Notif/commit/de3a2d54025e4cfe0d1c963dd6a840ae0cc1c82c))\n* keep the playback and added-item drains alive after a write error ([4b0fa72](https://github.com/JellyUX/Easy_Notif/commit/4b0fa72b1d709fbaf9000ce347bdc9b5b1e93231))\n* meter and rate-limit the me/test send path ([ec2ab5d](https://github.com/JellyUX/Easy_Notif/commit/ec2ab5dbbec4744e062a989a6d28a01924810f1d))\n* purge a user's data when the Jellyfin account is deleted ([43a00ad](https://github.com/JellyUX/Easy_Notif/commit/43a00ad10418ad6dcf6caf2cc973be6720916d59))\n* store transport secrets outside the serialized plugin configuration ([680c864](https://github.com/JellyUX/Easy_Notif/commit/680c86429203946eff27e255ce17cd01a3dc809c))",
                 "targetAbi": "10.11.10.0",
