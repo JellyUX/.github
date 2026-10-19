@@ -10,9 +10,11 @@ on:
 permissions:
   contents: write
 
+# Runs queue instead of overlapping: a run that started before another one pushed would commit the
+# same manifest on a stale checkout and have its push rejected (run 55, 2026-10-19).
 concurrency:
   group: sync-manifest
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
