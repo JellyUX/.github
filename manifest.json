@@ -140,6 +140,14 @@
         "imageUrl": "https://raw.githubusercontent.com/JellyUX/Homepage/main/docs/icon.png",
         "versions": [
             {
+                "version": "2.17.1.0",
+                "changelog": "### Bug Fixes\n\n* hide the chunk guard message away from the home page ([f2368cf](https://github.com/JellyUX/Homepage/commit/f2368cf29074061f7f2387ef937ab17f452c5747)), closes [#jux-chunk-notice](https://github.com/JellyUX/Homepage/issues/jux-chunk-notice)\n* keep a Min votes of 0 on the admin page ([71588d3](https://github.com/JellyUX/Homepage/commit/71588d327b36f930e645122be40f6425937a6acb))\n* move the detail breadcrumb under the header on narrow screens ([6c6083a](https://github.com/JellyUX/Homepage/commit/6c6083a3865e9a0884e83322bd0934d23b701fdf))\n* paint the narrow-screen breadcrumb past the header's containment ([748262a](https://github.com/JellyUX/Homepage/commit/748262a812a70cc9beff89097ae11ad261fa630a))",
+                "targetAbi": "10.11.9.0",
+                "sourceUrl": "https://github.com/JellyUX/Homepage/releases/download/v2.17.1/jellyux-homepage_2.17.1.0.zip",
+                "checksum": "fe953fa9bb3cb4e80b1c21f9a888a463",
+                "timestamp": "2026-10-24T14:47:15Z"
+            },
+            {
                 "version": "2.17.0.0",
                 "changelog": "### Features\n\n* carry a featured flag and a minimum rating on each row ([bf5dc22](https://github.com/JellyUX/Homepage/commit/bf5dc22f2e9ae461b4752b9313b02e58a9b311aa))\n* let the admin feature a section and set its minimum rating ([baa4f0c](https://github.com/JellyUX/Homepage/commit/baa4f0c696144f05d1895619dbfb06983c883902))\n* serve featured sections with overview, logo and backdrop ([547e006](https://github.com/JellyUX/Homepage/commit/547e006f17535f9e69bf4529bb103532fd9a8315))\n* show a featured section as a banner on the home page ([31fb23c](https://github.com/JellyUX/Homepage/commit/31fb23c59eb9151130ef0832f2ac925863933a8c)), closes [#00a4dc](https://github.com/JellyUX/Homepage/issues/00a4dc)\n\n### Bug Fixes\n\n* keep the featured banner readable on a light theme ([d119d74](https://github.com/JellyUX/Homepage/commit/d119d743445cb9d7d29ef40cf4084073a9f1e430))\n* keep the titles without a backdrop of a featured section for its cards ([ab4769c](https://github.com/JellyUX/Homepage/commit/ab4769ce8c02ca1859d4ed80172594481001da88))\n* normalize an unknown row view mode on load and save ([ccb66ef](https://github.com/JellyUX/Homepage/commit/ccb66ef2a09a447d7633212a4c8b7ce2db0e2741))\n* release a left banner, keep its focus and load a deferred logo ([79d5f95](https://github.com/JellyUX/Homepage/commit/79d5f95ca14499938ccbf77472c10bc2d4433053))",
                 "targetAbi": "10.11.9.0",
