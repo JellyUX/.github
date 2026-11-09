@@ -9,6 +9,14 @@
         "imageUrl": "https://raw.githubusercontent.com/JellyUX/Easy_Notif/main/docs/icon.png",
         "versions": [
             {
+                "version": "2.0.0.0",
+                "changelog": "### ⚠ BREAKING CHANGES\n\n* requires Jellyfin 12.0 or later\n\n### build\n\n* target Jellyfin 12 on .NET 10 ([6a274a5](https://github.com/JellyUX/Easy_Notif/commit/6a274a5fbedaa7e73fb3939e72ed55ec960567e4))",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/JellyUX/Easy_Notif/releases/download/v2.0.0/easy-notif_2.0.0.0.zip",
+                "checksum": "b8cebea81a70988c30db2222ffce3834",
+                "timestamp": "2026-11-09T20:21:31Z"
+            },
+            {
                 "version": "1.3.0.0",
                 "changelog": "### Features\n\n* add the newsletter pause to the admin page ([08526ca](https://github.com/JellyUX/Easy_Notif/commit/08526ca3efe854df3895c99cce938a7e30a72b50))\n* pause the next scheduled newsletter once for the migration ([cf280b2](https://github.com/JellyUX/Easy_Notif/commit/cf280b27e213c76c9b209dd4df181baeff960e2c))\n* report orphaned series subscriptions in the admin status ([335f0f2](https://github.com/JellyUX/Easy_Notif/commit/335f0f2d3b9217ca139595d547d8187ea906eb3b))\n\n### Bug Fixes\n\n* keep link targets in the text part of HTML emails ([ea2919d](https://github.com/JellyUX/Easy_Notif/commit/ea2919d374d758d8ca0da9b681a4dbb68ffd2636))\n* keep the campaign store readable when the data directory is read-only ([3fb1a67](https://github.com/JellyUX/Easy_Notif/commit/3fb1a674c9538defa16b280f4a41e679919dba89))\n* pause scheduling while campaigns.json is read-only ([a599a3f](https://github.com/JellyUX/Easy_Notif/commit/a599a3fb74b233e58057b66e0ef583384447e6a4))\n* send the one-click unsubscribe header only over https ([2de2d85](https://github.com/JellyUX/Easy_Notif/commit/2de2d851021e497ba9f00cc208ab98e663037cb1))\n* state accurately what happens to personal data on uninstall ([783f6d9](https://github.com/JellyUX/Easy_Notif/commit/783f6d9fec546ffd9e3c6a121c54049ba36e0bf7))\n* warn when a custom template drops the unsubscribe link ([fcaa182](https://github.com/JellyUX/Easy_Notif/commit/fcaa1828dcbc4f3360c92fafef34e9a31ef5fd55))\n* warn when no public URL leaves emails without an unsubscribe link ([b06a78e](https://github.com/JellyUX/Easy_Notif/commit/b06a78eaf1fc70829a04cde630934aee7302f6b9))",
                 "targetAbi": "10.11.10.0",
